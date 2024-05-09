@@ -12,9 +12,6 @@ modules:
   - type: files
     files:
       - usr: /usr
-      - bin: /usr/bin
-      - etc: /usr/etc
-      - lib: /usr/lib
 
   - type: rpm-ostree
 
