@@ -11,7 +11,10 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 modules:
   - type: files
     files:
-      - usr: /usr   
+      - usr: /usr
+      - bin: /usr/bin
+      - etc: /usr/etc
+      - lib: /usr/lib
 
   - type: rpm-ostree
 
